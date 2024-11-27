@@ -1,4 +1,4 @@
-Projeto de Armazenamento e Manipulação de Respostas de API CBLAB
+Projeto de Armazenamento e Manipulação de um Json de uma API - CBLAB
 
 Descrição:
 Este projeto tem como objetivo armazenar, manipular e analisar o json de uma resposta API. Ele inclui a criação de uma estrutura de pastas organizada para armazenar as respostas, a normalização dos dados em DataFrames, a conversão de datas e horários para o fuso horário do Brasil e o formato DD/MM/YYYY demonstrando um pouco como funciona a arquitetura Medallion, onde na camada brone os json foi recebido e transformado em DataFrames, na camada Silver os Dataframes passaram por uma padronização no titulo das tabelas e na camada Gold as datas foram alteradas para o datetime do Brasil.
